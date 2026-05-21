@@ -3,7 +3,7 @@
 #include <string.h>
 
 // menu
-void opcao () {
+int main () {
 int opcao;
 do {
     system("cls"); 
@@ -12,8 +12,21 @@ do {
 } while(opcao != 0);
 printf("Obrigado por usar nosso ATM!");
 
+switch(opcao) {
+case 1:
+consultarSaldo(saldo);
+break;
+case 2:
+saldo = realizarSaque(saldo);
+break;
+case 0:
+printf("Saindo...\n");
+break;
+default:
+printf("Opcao Invalida!\n");
 }
 
+}
 void exibirMenu() {
     printf("\n========================\n");
     printf(" CAIXA ELETRÔNICO  \n");
@@ -25,4 +38,3 @@ void exibirMenu() {
     printf("\n========================\n");
     printf("Escolha uma opção: \n");
 }
-
