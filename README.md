@@ -20,11 +20,16 @@ O programa funciona via terminal/console e permite que o usuário realize opera�
 
 ## Integrantes do Grupo
 
--Carlos Henrique Santos Dias RM - 573334  
+-Carlos Henrique Santos Dias RM - 573334
+
 -Erick Banhos de Castro RM - 572131 
--Erick Yu Xiang Li RM - 569305 
--Júlia Lemos Souza RM - 569089  
--Gustavo Araujo Ramos da Silva RM - 574156  
+
+-Erick Yu Xiang Li RM - 569305
+
+-Júlia Lemos Souza RM - 569089
+
+-Gustavo Araujo Ramos da Silva RM - 574156
+
 -Victor Henrique Nogueira RM – 570021
 
 ---
