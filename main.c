@@ -57,3 +57,11 @@ float realizarDeposito (float saldo) {
     }
     return saldo;
 }
+
+system("cls");
+printf("Saldo: R$ %.2f\n", saldo);
+printf("\nPressione Enter para continuar...");
+setbuf(stdin, NULL);
+getchar();
+
+
